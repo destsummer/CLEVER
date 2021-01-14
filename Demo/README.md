@@ -2,7 +2,7 @@ This folder contains formatted notes and metadata sourced from MIMICiii to be us
 
 To run follow the scripts below. Arguments are described 
 
-clever_step1.sh
+1. clever_step1.sh
 	[1] path to sequencer.py
 	[2] —lexicon path to lexicon
 	[3] —section-headers path to headers file
