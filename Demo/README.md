@@ -25,3 +25,11 @@ To run follow the scripts below. Arguments are described
 3. clever_step3.sh
 	[1] path to cleverRules.py
 	[2] path to output directory
+
+Notes need to formated as:
+- Each individual note per line
+- Unique Note ID preceeding the note and followed by a tab
+
+Metadata needs to be formated as:
+- PATIENT_ID|NOTE_ID|MIMIC_ID|TIMESTAMP|NOTE_TYPE
+- Mimic_Id can be substituted for any unique id
