@@ -1,0 +1,523 @@
+5000|access to firearm|ACCESS2_MEANS|
+5001|access to gun|ACCESS2_MEANS|
+5002|access to handgun|ACCESS2_MEANS|
+5003|access to pesticides|ACCESS2_MEANS|
+5004|access to rifle|ACCESS2_MEANS|
+5005|access to shotgun|ACCESS2_MEANS|
+5006|firearm at home|ACCESS2_MEANS|
+5007|gun at home|ACCESS2_MEANS|
+5008|gun ownership|ACCESS2_MEANS|
+5009|handgun|ACCESS2_MEANS|
+5010|lives near bridge|ACCESS2_MEANS|
+5011|lives near railway|ACCESS2_MEANS|
+5012|lives near train|ACCESS2_MEANS|
+5013|owns gun|ACCESS2_MEANS|
+5014|owns a gun|ACCESS2_MEANS|
+5015|owns a firearm|ACCESS2_MEANS|
+5016|owns a rifle|ACCESS2_MEANS|
+5017|owns a pistol|ACCESS2_MEANS|
+5018|owns a shotgun|ACCESS2_MEANS|
+5019|owns a handgun|ACCESS2_MEANS|
+5020|possession of a gun|ACCESS2_MEANS|
+5021|possession of a firearm|ACCESS2_MEANS|
+5022|possession of a rifle|ACCESS2_MEANS|
+5023|possession of a pistol|ACCESS2_MEANS|
+5024|possession of a shotgun|ACCESS2_MEANS|
+5025|possession of a handgun|ACCESS2_MEANS|
+5026|knife|ACCESS2_MEANS|
+5027|rope|ACCESS2_MEANS|
+5028|belt|ACCESS2_MEANS|
+5029|lives near a bridge|ACCESS2_MEANS|
+5030|noose|ACCESS2_MEANS|
+5031|blades|ACCESS2_MEANS|
+
+7000|difficulty obtaining food|FOOD_INSECURE|
+7001|does not obtain food|FOOD_INSECURE|
+7002|food insecurities|FOOD_INSECURE|
+7003|food insecurity|FOOD_INSECURE|
+7004|insufficient food supply|FOOD_INSECURE|
+7005|lack of food supply|FOOD_INSECURE|
+7006|nutrition impaired due to limited access to healthful foods|FOOD_INSECURE|
+7007|unable to obtain food|FOOD_INSECURE|
+7008|doesnt obtain food|FOOD_INSECURE|
+7009|doesn't obtain food|FOOD_INSECURE|
+7010|cant find food|FOOD_INSECURE|
+7011|cant obtain food|FOOD_INSECURE|
+7012|difficulty obtaining a meal|FOOD_INSECURE|
+7013|doesnt obtain meal|FOOD_INSECURE|
+7014|cant obtain meal|FOOD_INSECURE|
+7015|cant eat|FOOD_INSECURE|
+7016|food stamps|FOOD_INSECURE|
+7017|malnutrition|FOOD_INSECURE|
+7018|malnourished|FOOD_INSECURE|
+7019|starving|FOOD_INSECURE|
+7020|starved|FOOD_INSECURE|
+7021|starve|FOOD_INSECURE|
+7022|hungry|FOOD_INSECURE|
+7023|doesn't obtain food|FOOD_INSECURE|
+7024|cant' find food|FOOD_INSECURE|
+7025|can't obtain food|FOOD_INSECURE|
+
+FINANCIAL INSTABILITY:
+not been able to afford pills
+financial stress
+financial insecurities
+financial issues
+financial difficulties
+not able to afford his medications
+not able to afford her medications
+no money to buy
+financial support
+food and financial support
+
+8000|assistance with housing|HOUSE_INSTABLE|
+8001|concerned about housing|HOUSE_INSTABLE|
+8002|concerns about housing|HOUSE_INSTABLE|
+8003|couch surfing|HOUSE_INSTABLE|
+8008|crashing in friend's house|HOUSE_INSTABLE|
+8009|dchv|HOUSE_INSTABLE|
+8010|domiciliary care|HOUSE_INSTABLE|
+8011|domiciliary care for homeless veterans|HOUSE_INSTABLE|
+8012|domiciliary program|HOUSE_INSTABLE|
+8013|domicilliary care for homeless veterans|HOUSE_INSTABLE|
+8014|domicilliary program|HOUSE_INSTABLE|
+8015|doubled up|HOUSE_INSTABLE|
+8016|eviction|HOUSE_INSTABLE|
+8017|family promise of salt lake city|HOUSE_INSTABLE|
+8018|financial housing|HOUSE_INSTABLE|
+8019|finding of temporary shelter arrangements|HOUSE_INSTABLE|
+8020|form x|HOUSE_INSTABLE|
+8021|gpd program|HOUSE_INSTABLE|
+8022|grace mary manor|HOUSE_INSTABLE|
+8023|grant per diem program|HOUSE_INSTABLE|
+8024|half way house|HOUSE_INSTABLE|
+8025|hchv|HOUSE_INSTABLE|
+8026|hcmi|HOUSE_INSTABLE|
+8027|hcrv|HOUSE_INSTABLE|
+8028|healthcare for homeless veterans|HOUSE_INSTABLE|
+8029|healthcare for re-entry veterans|HOUSE_INSTABLE|
+8030|homeless|HOUSE_INSTABLE|
+8031|homeless chronically mentally ill|HOUSE_INSTABLE|
+8032|homeless individual|HOUSE_INSTABLE|
+8033|homeless person|HOUSE_INSTABLE|
+8034|homeless persons|HOUSE_INSTABLE|
+8035|homeless program|HOUSE_INSTABLE|
+8036|homeless single person|HOUSE_INSTABLE|
+8037|homelessness|HOUSE_INSTABLE|
+8038|hostel|HOUSE_INSTABLE|
+8039|housing assistance|HOUSE_INSTABLE|
+8040|housing concerns|HOUSE_INSTABLE|
+8041|housing coordinator|HOUSE_INSTABLE|
+8042|housing financial|HOUSE_INSTABLE|
+8043|housing lack|HOUSE_INSTABLE|
+8044|housing program|HOUSE_INSTABLE|
+8045|hud vash|HOUSE_INSTABLE|
+8046|hud-vash|HOUSE_INSTABLE|
+8047|jordan river|HOUSE_INSTABLE|
+8048|judge baxter|HOUSE_INSTABLE|
+8049|lack of housing|HOUSE_INSTABLE|
+8050|liberty house|HOUSE_INSTABLE|
+8051|liberty house shelter|HOUSE_INSTABLE|
+8052|lives in squat|HOUSE_INSTABLE|
+8053|lives temporarily with relatives|HOUSE_INSTABLE|
+8054|living in temporary quarters|HOUSE_INSTABLE|
+8055|living on the street|HOUSE_INSTABLE|
+8056|living on the streets|HOUSE_INSTABLE|
+8057|living rough|HOUSE_INSTABLE|
+8058|living temporarily with relatives|HOUSE_INSTABLE|
+8059|mass veteran's inc shelter|HOUSE_INSTABLE|
+8060|needs backpacks|HOUSE_INSTABLE|
+8061|needs shoes|HOUSE_INSTABLE|
+8062|needs sleeping bag|HOUSE_INSTABLE|
+8063|needs socks|HOUSE_INSTABLE|
+8064|needs tent|HOUSE_INSTABLE|
+8065|no housing|HOUSE_INSTABLE|
+8066|no permanent address|HOUSE_INSTABLE|
+8067|notice to vacate|HOUSE_INSTABLE|
+8068|obtaining housing|HOUSE_INSTABLE|
+8069|odyssey house|HOUSE_INSTABLE|
+8070|out sleeping|HOUSE_INSTABLE|
+8071|pan handling|HOUSE_INSTABLE|
+8072|rapid rehousing|HOUSE_INSTABLE|
+8073|seeking housing assistance|HOUSE_INSTABLE|
+8074|shelter|HOUSE_INSTABLE|
+8075|single homeless person|HOUSE_INSTABLE|
+8076|sleep in auto|HOUSE_INSTABLE|
+8077|sleep in automobile|HOUSE_INSTABLE|
+8078|sleep in boat|HOUSE_INSTABLE|
+8079|sleep in trailer|HOUSE_INSTABLE|
+8080|sleep in truck|HOUSE_INSTABLE|
+8081|sleeping at friends home|HOUSE_INSTABLE|
+8082|sleeping in a different place every night|HOUSE_INSTABLE|
+8083|sleeping in abandoned building|HOUSE_INSTABLE|
+8084|sleeping in automobile|HOUSE_INSTABLE|
+8085|sleeping in boat|HOUSE_INSTABLE|
+8086|sleeping in night shelter|HOUSE_INSTABLE|
+8087|sleeping in the park|HOUSE_INSTABLE|
+8088|sleeping in trailer|HOUSE_INSTABLE|
+8089|sleeping in truck|HOUSE_INSTABLE|
+8090|sleeping in vehicle|HOUSE_INSTABLE|
+8091|sleeping on the sidewalk|HOUSE_INSTABLE|
+8092|sleeping outdoors|HOUSE_INSTABLE|
+8093|sleeping rough|HOUSE_INSTABLE|
+8094|slept in abandoned building|HOUSE_INSTABLE|
+8095|slept in auto|HOUSE_INSTABLE|
+8096|slept in automobile|HOUSE_INSTABLE|
+8097|slept in boat|HOUSE_INSTABLE|
+8098|slept in the park|HOUSE_INSTABLE|
+8099|slept in trailer|HOUSE_INSTABLE|
+8100|slept in truck|HOUSE_INSTABLE|
+8101|slept on the sidewalk|HOUSE_INSTABLE|
+8102|slept outdoors|HOUSE_INSTABLE|
+8103|squatter|HOUSE_INSTABLE|
+8104|squatters|HOUSE_INSTABLE|
+8105|squatting|HOUSE_INSTABLE|
+8106|temporary housing program|HOUSE_INSTABLE|
+8107|temporary shelter arrangements|HOUSE_INSTABLE|
+8108|the road home|HOUSE_INSTABLE|
+8109|transitional residence|HOUSE_INSTABLE|
+8111|va domiciliary care program|HOUSE_INSTABLE|
+8112|va supportive housing|HOUSE_INSTABLE|
+8113|vash|HOUSE_INSTABLE|
+8114|wasatch homeless health care program|HOUSE_INSTABLE|
+8115|weigand center|HOUSE_INSTABLE|
+
+8116|squat|HOUSING_INSTABLE|
+8117|illegal tenant|HOUSING_INSTABLE|
+8118|illegal migrant|HOUSING_INSTABLE|
+8119|vagabond|HOUSING_INSTABLE|
+8120|vagrant|HOUSING_INSTABLE|
+8121|social migrant|HOUSING_INSTABLE|
+8122|living at the hospital|HOUSING_INSTABLE|
+8123|the streets|HOUSING_INSTABLE|
+8124|temporary shelter|HOUSING_INSTABLE|
+8125|makeshift shelter|HOUSING_INSTABLE|
+8126|homeless shelter|HOUSING_INSTABLE|
+8127|night shelter|HOUSING_INSTABLE|
+8128|homeless center|HOUSING_INSTABLE|
+8129|housing service|HOUSING_INSTABLE|
+8130|institutional care facility|HOUSING_INSTABLE|
+8131|friends home|HOUSING_INSTABLE|
+8132|friend's home|HOUSING_INSTABLE|
+8133|sofa|HOUSING_INSTABLE|
+8134|couch|HOUSING_INSTABLE|
+8135|motel|HOUSING_INSTABLE|
+8136|hotel|HOUSING_INSTABLE|
+8137|living in their vehicle|HOUSING_INSTABLE|
+8138|sleeping in their vehicle|HOUSING_INSTABLE|
+8139|evicted|HOUSING_INSTABLE|
+8140|evicting|HOUSING_INSTABLE|
+8141|evict|HOUSING_INSTABLE|
+8142|sleeps in|HOUSING_INSTABLE|
+8143|slept in|HOUSING_INSTABLE|
+8144|sleep in|HOUSING_INSTABLE|
+8145|sleeps at|HOUSING_INSTABLE|
+8146|slept at|HOUSING_INSTABLE|
+8147|sleep at|HOUSING_INSTABLE|
+8148|sleeping in|HOUSING_INSTABLE|
+8149|sleeping at|HOUSING_INSTABLE|
+8150|sleeping on|HOUSING_INSTABLE|
+8151|sleeps on|HOUSING_INSTABLE|
+8152|slept on|HOUSING_INSTABLE|
+8153|live in a|HOUSING_INSTABLE|
+8154|live in the|HOUSING_INSTABLE|
+8155|live on a|HOUSING_INSTABLE|
+8156|live on the|HOUSING_INSTABLE|
+8157|lives in a|HOUSING_INSTABLE|
+8158|lives on the|HOUSING_INSTABLE|
+8159|living in|HOUSING_INSTABLE|
+8160|has no home|HOUSING_INSTABLE|
+8161|nowhere to sleep|HOUSING_INSTABLE|
+8162|with out a home|
+8163|without a home|
+
+9000|acquitted from criminal charge|JUSTICE|
+9001|arrest by police|JUSTICE|
+9002|arrested by police|JUSTICE|
+9003|arrested in police custody|JUSTICE|
+9004|charged with crime|JUSTICE|
+9005|convictd for criminal activity|JUSTICE|
+9006|convicted for criminal activity|JUSTICE|
+9007|correctional institution resident|JUSTICE|
+9008|has a prison record|JUSTICE|
+9009|imprisoned|JUSTICE|
+9010|imprisonment record|JUSTICE|
+9011|in jail|JUSTICE|
+9012|in prison|JUSTICE|
+9013|incarcerate|JUSTICE|
+9014|incarcerated|JUSTICE|
+9015|involvd in crim law proceedngs|JUSTICE|
+9016|involved in criminal law proceedings|JUSTICE|
+9017|jail inmate|JUSTICE|
+9018|on conditional probation|JUSTICE|
+9019|prison inmate|JUSTICE|
+9020|prison inmates|JUSTICE|
+9021|prison record|JUSTICE|
+9022|prison sentence|JUSTICE|
+9023|prisoner|JUSTICE|
+9024|prisoners|JUSTICE|
+9025|problem related to release from prison|JUSTICE|
+9026|problems related to release from prison|JUSTICE|
+9027|prosecution impending|JUSTICE|
+9028|released from prison|JUSTICE|
+9029|released on bail|JUSTICE|
+9030|vandalism record|JUSTICE|
+9031|young offender|JUSTICE|
+9032|convict|JUSTICE|
+9033|convicted|JUSTICE|
+9034|released from jail|JUSTICE|
+9035|under arrest|JUSTICE|
+9036|arrested|JUSTICE|
+9037|lawyer|JUSTICE|
+9038|bail|JUSTICE|
+9039|bailed|JUSTICE|
+9040|parole|JUSTICE|
+9041|paroled|JUSTICE|
+9042|probation|JUSTICE|
+9043|prosecuted|JUSTICE|
+9044|prosecuting|JUSTICE|
+9045|prosecution|JUSTICE|
+9046|juvie|JUSTICE|
+9047|police custody|JUSTICE|
+9048|charged of crime|JUSTICE|
+9049|involved with crime|JUSTICE|
+9050|involved in crime|JUSTICE|
+9051|criminal activity|JUSTICE|
+ 
+(SEPARATE INTO 2 CAT - SOCIAL_ISOLATION AND FAMILY_INSTABILITY?)
+11000|actual lack of social support|SOCIAL_CONNECT|
+11001|at risk for loneliness|SOCIAL_CONNECT|
+11002|at risk for social isolation|SOCIAL_CONNECT|
+11003|decreased social isolation|SOCIAL_CONNECT|
+11004|difficulty establishing relationships|SOCIAL_CONNECT|
+11005|difficulty maintaining relationships|SOCIAL_CONNECT|
+11006|family isolation|SOCIAL_CONNECT|
+11007|feeling lonely|SOCIAL_CONNECT|
+11009|inadequate social skills|SOCIAL_CONNECT|
+11010|inadequate social support|SOCIAL_CONNECT|
+11011|lack of family support|SOCIAL_CONNECT|
+11012|lack of social support|SOCIAL_CONNECT|
+11013|lacks emotional support|SOCIAL_CONNECT|
+11014|lives alone|SOCIAL_CONNECT|
+11015|loneliness|SOCIAL_CONNECT|
+11016|lonely|SOCIAL_CONNECT|
+11017|loss of interest in or fear of meeting people|SOCIAL_CONNECT|
+11018|minimal outside social stimulation|SOCIAL_CONNECT|
+11019|minimal shared activities|SOCIAL_CONNECT|
+11020|no contact with family|SOCIAL_CONNECT|
+11021|receives a little social support|SOCIAL_CONNECT|
+11022|receives no social support|SOCIAL_CONNECT|
+11024|risk for loneliness|SOCIAL_CONNECT|
+11025|social exclusion|SOCIAL_CONNECT|
+11026|social interaction impairment minimal shared activities|SOCIAL_CONNECT|
+11027|social outcast|SOCIAL_CONNECT|
+11028|social rejection|SOCIAL_CONNECT|
+11029|social rejections|SOCIAL_CONNECT|
+11030|social withdrawal|SOCIAL_CONNECT|
+11031|withdrawal from social contacts|SOCIAL_CONNECT|
+11032|withdrawn from social contacts|SOCIAL_CONNECT|
+
+11033|family disconnect|SOCIAL_CONNECT|
+11034|doesnt talk to|SOCIAL_CONNECT|
+11035|doesn't talk to|SOCIAL_CONNECT|
+11036|doesnt keep in contact with|SOCIAL_CONNECT|
+11037|doesn't keep in contact with|SOCIAL_CONNECT|
+11038|not in contact with|SOCIAL_CONNECT|
+11039|no contact with|SOCIAL_CONNECT|
+11040|estranged from|SOCIAL_CONNECT|
+11041|hermit|SOCIAL_CONNECT|
+11042|ran away|SOCIAL_CONNECT|
+11043|excluded|SOCIAL_CONNECT|
+11044|excluding|SOCIAL_CONNECT|
+11045|outcast|SOCIAL_CONNECT|
+11046|no social support|SOCIAL_CONNECT|
+11047|no family support|SOCIAL_CONNECT|
+11048|introvert|SOCIAL_CONNECT|
+11049|prefers to be alone|SOCIAL_CONNECT|
+11050|poor family relationship|SOCIAL_CONNECT|
+11051|difficult relationship with family|SOCIAL_CONNECT|
+11052|social isolation|SOCIAL_CONNECT|
+feeling hopeless|
+hopelessness|
+abandonment|
+social work involved|
+social work consulted|
+family raises concern|
+
+
+12000|cohabitee left home|SOCIAL_CONNECT_RS|
+12001|divorce problems|SOCIAL_CONNECT_RS|
+12002|divorce proceedings pending|SOCIAL_CONNECT_RS|
+12003|husband left home|SOCIAL_CONNECT_RS|
+12004|marital separation|SOCIAL_CONNECT_RS|
+12005|personal relationship breakdown|SOCIAL_CONNECT_RS|
+12007|relationship breakdown|SOCIAL_CONNECT_RS|
+12008|separated from cohabitee|SOCIAL_CONNECT_RS|
+12009|separation|SOCIAL_CONNECT_RS|
+12010|separations|SOCIAL_CONNECT_RS|
+12011|spouse left home|SOCIAL_CONNECT_RS|
+12012|trial separation|SOCIAL_CONNECT_RS|
+12013|wife left home|SOCIAL_CONNECT_RS|
+
+12014|being cheated on|SOCIAL_CONNECT_RS|
+12015|being left by spouse|SOCIAL_CONNECT_RS|
+12016|divorce|SOCIAL_CONNECT_RS|
+12017|divorced|SOCIAL_CONNECT_RS|
+12018|divorcing|SOCIAL_CONNECT_RS|
+12019|separated|SOCIAL_CONNECT_RS|
+12020|being separated|SOCIAL_CONNECT_RS|
+12021|being separated from|SOCIAL_CONNECT_RS|
+12022|separated from|SOCIAL_CONNECT_RS|
+12023|spouse left|SOCIAL_CONNECT_RS|
+12024|husband left|SOCIAL_CONNECT_RS|
+12025|wife left|SOCIAL_CONNECT_RS|
+12026|significant other left|SOCIAL_CONNECT_RS|
+12027|partner left|SOCIAL_CONNECT_RS|
+12028|cheats|SOCIAL_CONNECT_RS|
+12029|being single|SOCIAL_CONNECT_RS|
+12030|is single|SOCIAL_CONNECT_RS|
+12031|ex-husband|SOCIAL_CONNECT_RS|
+12032|ex-wife|SOCIAL_CONNECT_RS|
+12033|ex-boyfriend|SOCIAL_CONNECT_RS|
+12034|ex-girlfriend|SOCIAL_CONNECT_RS|
+12035|broke up with boyfriend|SOCIAL_CONNECT_RS|
+12036|broke up with girlfriend|SOCIAL_CONNECT_RS|
+12037|broke up with partner|SOCIAL_CONNECT_RS|
+12038|no longer with boyfriend|SOCIAL_CONNECT_RS|
+12039|no longer with girlfriend|SOCIAL_CONNECT_RS|
+12040|no longer with partner|SOCIAL_CONNECT_RS|
+12041|no longer with husband|SOCIAL_CONNECT_RS|
+12042|no longer with wife|SOCIAL_CONNECT_RS|
+12043|marriage not working|SOCIAL_CONNECT_RS|
+12044|out of a relationship|SOCIAL_CONNECT_RS|
+12045|no relationship|SOCIAL_CONNECT_RS|
+12046|abusive relationship|SOCIAL_CONNECT_RS|
+12047|was engaged|SOCIAL_CONNECT_RS|
+12048|ex-fiance|SOCIAL_CONNECT_RS|
+abused|
+sexual abuse|
+restraining order|
+marital problems|
+civil partnership dissolved|
+separated/divorced|
+annulled marriage|
+never married **|
+remarried|
+second marriage|
+seperated from|
+seperated|
+divorse|
+divorcedx|
+
+13000|chronic unemployment|UNEMPLOYMENT|
+13001|discharged from duty|UNEMPLOYMENT|
+13002|discharged from job|UNEMPLOYMENT|
+13003|dismissal from employment|UNEMPLOYMENT|
+13004|dismissed from job|UNEMPLOYMENT|
+13005|does not work|UNEMPLOYMENT|
+13006|doesn't work|UNEMPLOYMENT|
+13007|don't work|UNEMPLOYMENT|
+13008|employment termination|UNEMPLOYMENT|
+13009|fired|UNEMPLOYMENT|
+13010|job loss|UNEMPLOYMENT|
+13011|job losses|UNEMPLOYMENT|
+13012|jobless|UNEMPLOYMENT|
+13013|joblessness|UNEMPLOYMENT|
+13014|loss of employment|UNEMPLOYMENT|
+13015|loss of job|UNEMPLOYMENT|
+13016|lost job|UNEMPLOYMENT|
+13017|made redundant|UNEMPLOYMENT|
+13018|not employed|UNEMPLOYMENT|
+13019|out of work|UNEMPLOYMENT|
+13020|recently unemployed|UNEMPLOYMENT|
+13021|sacked from job|UNEMPLOYMENT|
+13022|sacked from work|UNEMPLOYMENT|
+13023|termination of employment|UNEMPLOYMENT|
+13024|unemployed|UNEMPLOYMENT|
+13025|unemployment|UNEMPLOYMENT|
+13026|unfair dismissal from job|UNEMPLOYMENT|
+13027|voluntary resignation|UNEMPLOYMENT|
+13028|without employment|UNEMPLOYMENT|
+
+13029|redundant|UNEMPLOYMENT|
+13030|resigned|UNEMPLOYMENT|
+13031|resign|UNEMPLOYMENT|
+13032|retired|UNEMPLOYMENT|
+13033|receiving SS|UNEMPLOYMENT|
+13034|receiving social security benefits|UNEMPLOYMENT|
+13035|on social security|UNEMPLOYMENT|
+13036|on disability|UNEMPLOYMENT|
+13037|lost his job|UNEMPLOYMENT|
+13038|lost her job|UNEMPLOYMENT|
+13039|has not worked|UNEMPLOYMENT|
+stopped work|
+dont work|
+doesnt work|
+resignation|
+loss of his job |
+loss of her job|
+sacked from|
+unemployement|
+unemplyment|
+
+ADDITIONAL FAMILY HEALTH AND DEATHS: (SHOULD THIS BE COMBINED WITH FAMILY_INSTABILITY? - 
+	WE ARE ALREADY SEARCHING FOR CODES RELATED TO THIS UNDER FAMILY_INSTABILITY 
+	i.e V6107 and V6149) 
+15000|death of|FAMILY_HEALTH
+15001|parental death|FAMILY_HEALTH
+15002|family death|FAMILY_HEALTH
+15003|child death|FAMILY_HEALTH
+15004|sibling death|FAMILY_HEALTH
+15005|relative death|FAMILY_HEALTH
+15006|deceased|FAMILY_HEALTH
+15007|died|FAMILY_HEALTH
+15008|loss of family member|FAMILY_HEALTH
+15009|loss of relative|FAMILY_HEALTH
+15010|loss of parent|FAMILY_HEALTH
+15011|loss of mother|FAMILY_HEALTH
+15012|loss of father|FAMILY_HEALTH
+15013|loss of child(ren)|FAMILY_HEALTH
+15014|loss of infant|FAMILY_HEALTH
+15015|loss of son|FAMILY_HEALTH
+15016|loss of daughter|FAMILY_HEALTH
+15017|loss of sibling|FAMILY_HEALTH
+15018|loss of brother|FAMILY_HEALTH
+15019|loss of sister|FAMILY_HEALTH
+15020|loss of friend|FAMILY_HEALTH
+15021|loss of partner|FAMILY_HEALTH
+15022|loss of boyfriend|FAMILY_HEALTH
+15023|loss of girlfriend|FAMILY_HEALTH
+15024|loss of companion|FAMILY_HEALTH
+15025|loss of significant other|FAMILY_HEALTH
+15026|loss of aunt|FAMILY_HEALTH
+15027|loss of uncle|FAMILY_HEALTH
+15028|loss of grandmother|FAMILY_HEALTH
+15029|loss of grandfather|FAMILY_HEALTH
+15030|family illness|FAMILY_HEALTH
+15031|serious illness|FAMILY_HEALTH
+15032|illness problem|FAMILY_HEALTH
+15033|terminal illness|FAMILY_HEALTH
+15034|long term illness|FAMILY_HEALTH
+15035|chronic illness|FAMILY_HEALTH
+15036|parental health issue|FAMILY_HEALTH
+15037|child health issue|FAMILY_HEALTH
+15038|family health issue|FAMILY_HEALTH
+15039|sick|FAMILY_HEALTH
+15040|sickness|FAMILY_HEALTH
+15041|injured|FAMILY_HEALTH
+15042|injury|FAMILY_HEALTH
+15043|injuries|FAMILY_HEALTH
+15044|cancer|FAMILY_HEALTH
+15045|bereavement|FAMILY_HEALTH
+15046|passing|FAMILY_HEALTH
+15047|passing away|FAMILY_HEALTH
+15048|passing on|FAMILY_HEALTH
+15049|demise|FAMILY_HEALTH
+15050|decease|FAMILY_HEALTH
+15051|mourn|FAMILY_HEALTH
+15052|committed suicide|FAMILY_HEALTH
+15053|attempted suicide|FAMILY_HEALTH
+15054|took their own life|FAMILY_HEALTH
+15055|died by suicide|FAMILY_HEALTH
+15056|loss of parents|FAMILY_HEALTH
+15057|loss of siblings|FAMILY_HEALTH
