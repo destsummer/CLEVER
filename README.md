@@ -7,3 +7,10 @@ Original github and code developed by Tamang. s, et al. can be found here : http
 This repository is for updated Python 3 code
 
 Refer to the demo folder for running the scripts
+
+General Usage:
+1. Format Notes and Metadata
+2. CLEVER step 1 (sequencer)
+3. CLEVER step 2 (organize and functions)
+4. CLEVER step 3 (rules)
+5. Analyze positive and negative annotation files
