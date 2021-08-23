@@ -29,7 +29,8 @@ To run follow the scripts below. Arguments are described
 Notes need to formated as:
 - Each individual note per line
 - Unique Note ID preceeding the note and followed by a tab
+- i.e 0000456	"This is an example note"
 
 Metadata needs to be formated as:
-- PATIENT_ID|NOTE_ID|MIMIC_ID|TIMESTAMP|NOTE_TYPE
-- Mimic_Id can be substituted for any unique id
+- Pipe separated 
+- i.e PATIENT_ID|NOTE_ID|MIMIC_ID|TIMESTAMP|NOTE_TYPE
