@@ -1,0 +1,690 @@
+Social Determinants of Health:
+Life Events
+Structured Variable Definitions
+
+
+Description: The following lists structured variables used in defining 9 different life events covered in our NLP analysis. These definitions cover structured variables from inpatient/outpatient ICD diagnosis codes, VA service StopCodes, and Health Factor Surveys. The 9 life events were selected as being relevant to measuring suicide risk by Dr. Tamang et. al. To our current knowledge, there is not a publication that defines these 9 life events directly, but we have been able to find other studies that contain structured data definitions for some of these life event categories.  Purpose: Having a well-defined set of structured variables will ensure confidence in measurements made with NLP methods, and help demonstrate how feature extraction improves the detection of life events when compared to features clinicians already have access to. Our study aims at comparing how well documents are flagged as containing life events between two approaches: 1) linking documents from structured variables along VisitSID and 3) searching over document text for life event mentions. We believe that the our work will show that domain specific lexicons can improve the retrieval rate of documents containing life events. 
+
+To our knowledge, we’ve constructed these life event definitions as close as possible to social determinant of health definitions in previous VA literature that use structured variables[1]. Some codes were composed from our exploration of the VA data and require validation by a domain expert. Throughout this document, we indicate whether codes were referenced from a previous study or if they were added by our group. There are also questions we’ve had w.r.t. to specific life events.
+
+*  - added by our group
+
+
+Food Insecurity {FOOD_INSECURE} – This domain includes terms related to food insecurity, a risk factor within the REACH VET predictive model for identifying veterans at a statistically elevated risk for suicide and other adverse outcomes. Food Insecurity is part of the Economic Stability Determinant Area within the “place-based” organizing framework of the Healthy People 2020 Approach to Social Determinants of Health. Terms in this domain are focused on assessment and diagnosis. They were initially identified via SIREN’s Compendium of medical terminology codes for social risk factors (https://sirenetwork.ucsf.edu/tools-resources/resources/compendium-medical-terminology-codes-social-risk-factors) and further expanded through transitive closures and synonymy within UMLS Metathesaurus and SNOMED CT in particular. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+51,difficulty obtaining food
+52,does not obtain food
+53,food insecurities
+54,food insecurity
+55,insufficient food supply
+56,lack of food supply
+57,nutrition impaired due to limited access to healthful foods
+58,unable to obtain food
+
+
+StopCode:
+
+N/A
+
+ICD-9:
+
+N/A
+
+ICD-10:
+
+Z59.4 - Lack of adequate food and safe drinking water. [1]
+
+Health Factor Category, Health Factor Type:
+
+NUTRITION, FOOD INSECURITY- YES *
+NUTRITION DIAGNOSES, LIMITED ACCESS TO FOOD (NB-3.2) *
+NUTRITIONAL HEALTH ASSESSMENT, NOT ENOUGH MONEY TO BUY FOOD *
+
+Housing Instability {HOUSE_INSTABLE} – This domain includes terms related to housing instability, a risk factor within the REACH VET predictive model for identifying veterans at a statistically elevated risk for suicide and other adverse outcomes. Housing Instability is part of the Economic Stability Determinant Area within the “place-based” organizing framework of the Healthy People 2020 Approach to Social Determinants of Health. Terms in this domain were provided both by subject matter experts and through SIREN’s Compendium of medical terminology codes for social risk factors (https://sirenetwork.ucsf.edu/tools-resources/resources/compendium-medical-terminology-codes-social-risk-factors) and further expanded through transitive closures and synonymy within UMLS Metathesaurus and SNOMED CT in particular. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+59,assistance with housing
+60,concerned about housing
+61,concerns about housing
+62,couch surfing
+63,court st shelter
+64,court st. ne shelter
+65,court st. shelter
+66,court street shelter
+67,crashing in friend's house
+68,dchv
+69,domiciliary care
+70,domiciliary care for homeless veterans
+71,domiciliary program
+72,domicilliary care for homeless veterans
+73,domicilliary program
+74,doubled up
+75,eviction
+76,family promise of salt lake city
+77,financial housing
+78,finding of temporary shelter arrangements
+79,form x
+80,gpd program
+81,grace mary manor
+82,grant per diem program
+83,half way house
+84,hchv
+85,hcmi
+86,hcrv
+87,healthcare for homeless veterans
+88,healthcare for re-entry veterans
+89,homeless
+90,homeless chronically mentally ill
+91,homeless individual
+92,homeless person
+93,homeless persons
+94,homeless program
+95,homeless single person
+96,homelessness
+97,hostel
+98,housing assistance
+99,housing concerns
+100,housing coordinator
+101,housing financial
+102,housing lack
+103,housing program
+104,hud vash
+105,hud-vash
+106,jordan river
+107,judge baxter
+108,lack of housing
+109,liberty house
+110,liberty house shelter
+111,lives in squat
+112,lives temporarily with relatives
+113,living in temporary quarters
+114,living on the street
+115,living on the streets
+116,living rough
+117,living temporarily with relatives
+118,mass veteran's inc shelter
+119,needs backpacks
+120,needs shoes
+121,needs sleeping bag
+122,needs socks
+123,needs tent
+124,no housing
+125,no permanent address
+126,notice to vacate
+127,obtaining housing
+128,odyssey house
+129,out sleeping
+130,pan handling
+131,rapid rehousing
+132,seeking housing assistance
+133,shelter
+134,single homeless person
+135,sleep in auto
+136,sleep in automobile
+137,sleep in boat
+138,sleep in trailer
+139,sleep in truck
+140,sleeping at friends home
+141,sleeping in a different place every night
+142,sleeping in abandoned building
+143,sleeping in automobile
+144,sleeping in boat
+145,sleeping in night shelter
+146,sleeping in the park
+147,sleeping in trailer
+148,sleeping in truck
+149,sleeping in vehicle
+150,sleeping on the sidewalk
+151,sleeping outdoors
+152,sleeping rough
+153,slept in abandoned building
+154,slept in auto
+155,slept in automobile
+156,slept in boat
+157,slept in the park
+158,slept in trailer
+159,slept in truck
+160,slept on the sidewalk
+161,slept outdoors
+162,squatter
+163,squatters
+164,squatting
+165,temporary housing program
+166,temporary shelter arrangements
+167,the road home
+168,transitional residence
+169,v60.0
+170,va domiciliary care program
+171,va supportive housing
+172,vash
+173,wasatch homeless health care program
+174,weigand center
+
+StopCode:
+
+501 - 
+504 - Grant and Per Diem- Group. [1]
+507 - HUD/VASH- Group. [1]
+508 - HCHV/HCMI- Group. [1]
+511 - Grant and Per Diem- Individual. [1]
+522 - Department of Housing and Urban Development (HUD)-VA Supported Housing (VASH) Individual. [1]
+528 - Telephone/Homeless Chronically Mentally Ill (HCMI). [1]
+529 - HCHV/HCMI- Individual. [1] 
+530 - Telephone/HUD-VASH. [1]
+555 - Homeless Veteran Community Employment Services- Individual. [1]
+556 - Homeless Veteran Community Employment Services- Group. [1]
+590 - 
+725 –
+Question: Should stop codes for RRTP and PRRC be included here? *
+
+
+ICD-9:
+
+V.60 - Housing household and economic circumstances. *
+
+ICD-10:
+
+Z59.0 – Homelessness. [1]
+Z59.1 - Inadequate housing. [1]
+Z59.2 - Discord with neighbors, lodgers and landlord. * --
+Z59.3 - Problems related to living in residential institution. * --
+Z59.8 - Other problems related to housing and economic circumstances. *
+Z59.9 - Problem related to housing and economic circumstances, unspecified. *
+
+Health Factor Category, Health Factor Type:
+
+CURRENT LIVING, LIVES IN MOTEL/HOTEL [1]
+CURRENT LIVING, LIVES IN SHELTER [1]
+CURRENT LIVING, LIVES IN INSTITUTION [1]
+CURRENT LIVING, LIVES ON STREET [1]
+CURRENT LIVING [C], LIVES IN MOTEL/HOTEL [1]
+CURRENT LIVING [C], LIVES IN SHELTER [1]
+CURRENT LIVING [C], LIVES IN INSTITUTION [1]
+CURRENT LIVING [C], LIVES ON STREET [1]
+HOMELESSNESS SCREENING, POSITIVE – HAS NO STABLE HOUSING [1]
+HOMELESSNESS SCREENING, POSITIVE – HAS WORRIES ABOUT HOUSING [1]
+HOMELESSNESS SCREENING, POSITIVE – REFERRED TO HOMELESS PROGRAM [1]
+Question: Should LIVES IN INSTITUTION be included? *
+Living with family/friends should not be included.
+
+Social Connectedness {SOCIAL_CONNECT} – This domain includes terms related to social connections and isolation, aside from terms related to relationship status, which are in a separate domain. Initial term selection is focused on social isolation and limited social support. Social Cohesion is part of the Social and Community Context Determinant Area within the “place-based” organizing framework of the Healthy People 2020 Approach to Social Determinants of Health. Terms in this domain were initially identified via SIREN’s Compendium of medical terminology codes for social risk factors (https://sirenetwork.ucsf.edu/tools-resources/resources/compendium-medical-terminology-codes-social-risk-factors) and further expanded through transitive closures and synonymy within UMLS Metathesaurus and SNOMED CT in particular. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+234,actual lack of social support
+235,at risk for loneliness
+236,at risk for social isolation
+237,decreased social isolation
+238,difficulty establishing relationships
+239,difficulty maintaining relationships
+240,family isolation
+241,feeling lonely
+242,improvement in friendships and/or relationships
+243,inadequate social skills
+244,inadequate social support
+245,lack of family support
+246,lack of social support
+247,lacks emotional support
+248,lives alone - help available
+249,loneliness
+250,lonely
+251,loss of interest in or fear of meeting people
+252,minimal outside social stimulation
+253,minimal shared activities
+254,no contact with family
+255,receives a little social support
+256,receives no social support
+257,receives quite a bit of social support
+258,risk for loneliness
+259,social exclusion
+260,social interaction impairment minimal shared activities
+261,social outcast
+262,social rejection
+263,social rejections
+264,social withdrawal
+265,withdrawal from social contacts
+266,withdrawn from social contacts
+
+StopCode:
+
+N/A
+
+ICD-9:
+
+V61 - Family disruption. * -- 
+V61.3 - Problems with aged parents or in-laws. * --
+V61.4 - Health problems within family. * --
+V61.8 - Other specified family circumstances. * --
+V61.9 - Unspecified family circumstance. * --
+V62.4 - Social maladjustment. *
+
+ICD-10:
+
+T74.0 - Neglect or abandonment, confirmed. [1]
+T76.0 - Neglect or abandonment, suspected. [1]
+Z60 - Problems related to social environment. [1] ?
+Z62 - Problems related to upbringing. [1] ?
+Z63.1 - Problems in relationship with in-laws. * --
+Z63.3 - Absence of family member. *
+Z63.4 - Disappearance and death of family member. * --
+Z63.6 - Dependent relative needing care at home. * --
+Z63.7- Other stressful life events affecting family and household. * --
+Z63.8 - Other specified problems related to primary support group. * 
+Z63.9 - Problem related to primary support group, unspecified. *
+Z65.8 - Other specified problems related to psychosocial circumstances. [1] ?
+Z65.9 - Problem related to unspecified psychosocial circumstances. [1] ?
+QUESTION: Absence of family members(Z63.3), disappearance /death of family members(Z63.4), health problems with family (V61.4),  and dependent relative needing care at home(Z63.6): These concepts are not directly featured in Dr. Tamang’s life event concepts. While these could indicate social isolation as a results of a failed relation with a family member or friction with social environment as a result of family conditions, are these to ambiguous to include in this life event category?
+
+Health Factor Category, Health Factor Type:
+
+ABUSE & NEGLECT SCREEN, ABUSE & NEGLECT SELF REPORT YES *
+ABUSE & NEGLECT SCREEN, ABUSE & NEGLECT SXS YES *
+ABUSE/NEGLECT, EMOTIONAL CONCERNS *
+ABUSE/NEGLECT, NEGLECT BY CARETAKER *
+ABUSE/NEGLECT SCREEN, ABUSE/NEGLECT AFRAID YES * 
+ABUSE/NEGLECT SCREEN, ABUSE/NEGLECT POSITIVE *
+ABUSE/NEGLECT SCREEN, ABUSE/NEGLECT WITHDRAWAL *
+PTSD AVOIDANCE, PTSD AVOIDANCE YES *
+PTSD DETACHMENT, PTSD SURROUNDINGS DETATCHMENT YES *
+RN CP SOCIAL ISOLATION, DC ABSENCE SUPPORTIVE/SIGNIF OTHER(S) *
+RN CP SOCIAL ISOLATION, DC EXPRESSES FEELING OF ALONENESS *
+RN CP SOCIAL ISOLATION, DC EXPRESSES FEELINGS OF REJECTION *
+RN CP SOCIAL ISOLATION, DC SEEKS TO BE ALONE/EXISTS IN SUBCULT *
+RN CP SOCIAL ISOLATION, ET INABIL TO ENGAGE PERSONAL RELATIONS *
+SCREENING ABUSE/NEGLECT/EXPLOITATION, ABUSE/NEGLECT POSITIVE * 
+
+Social Connectedness (Relationship Status) {SOCIAL_CONNECT_RS} – This domain includes terms related to social connections and isolation, more specifically focused on relationship problems. Social Cohesion is part of the Social and Community Context Determinant Area within the “place-based” organizing framework of the Healthy People 2020 Approach to Social Determinants of Health. Terms in this domain were initially identified via SIREN’s Compendium of medical terminology codes for social risk factors (https://sirenetwork.ucsf.edu/tools-resources/resources/compendium-medical-terminology-codes-social-risk-factors) and further expanded through transitive closures and synonymy within UMLS Metathesaurus and SNOMED CT in particular. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+267,cohabitee left home
+268,divorce problems
+269,divorce proceedings pending
+270,husband left home
+271,marital separation
+272,personal relationship breakdown
+273,poor family relationship
+274,relationship breakdown
+275,separated from cohabitee
+276,separation
+277,separations
+278,spouse left home
+279,trial separation
+280,wife left home
+
+StopCode:
+
+N/A
+
+ICD-9:
+
+V61.03 - Family disruption due to divorce or legal separation. * --
+V61.1 -  Counseling for marital and partner problems.*
+
+ICD-10:
+
+Z63.0 - Problems in relationship with spouse or partner. [1]
+Z63.5 - Disruption of family by separation and divorce. * --
+
+Health Factor Category, Health Factor Type:
+
+DOMESTIC VIOLENCE, YES LIKE TO DISCUSS WITH SOMEONE *
+DOMESTIC VIOLENCE, DOMESTIC VIOLENCE SCREEN POS *
+DOMESTIC VIOLENCE E-HITS IPV, DV E-HITS/IPV SCREEN POSITIVE *
+DOMESTIC VIOLENCE SCREEN, POSITIVE DOMESTIC VIOLENCE SCREEN *
+HOME VIOLENCE/ABUSE, HOME VIOLENCE/ABUSE YES *
+PARTNER ABUSE SCREEN, PARTNER ABUSE SCREEN POSITIVE *
+V1-DOMESTIC VIOLENCE E-HITS IPV, V1-DV E-HITS/IPV SCREEN POSITIVE * 
+VA-MCC INTIMATE PARTNER VIOLENCE (C), VA-MCC VIOLENCE YES *
+
+
+Job Instability (JOB_INSTABILITY) – This domain includes terms related to job instability and is initially focused on unemployment. Employment is part of the Economic Stability Determinant Area within the “place-based” organizing framework of the Healthy People 2020 Approach to Social Determinants of Health. Terms in this domain were initially identified via SIREN’s Compendium of medical terminology codes for social risk factors (https://sirenetwork.ucsf.edu/tools-resources/resources/compendium-medical-terminology-codes-social-risk-factors) and further expanded through transitive closures and synonymy within UMLS Metathesaurus and SNOMED CT in particular. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+281,chronic unemployment
+282,discharged from duty
+283,discharged from job
+284,dismissal from employment
+285,dismissed from job
+286,does not work
+287,doesn't work
+288,don't work
+289,employment termination
+290,fired
+291,job loss
+292,job losses
+293,jobless
+294,joblessness
+295,loss of employment
+296,loss of job
+297,lost job
+298,made redundant
+299,not employed
+300,out of work
+301,recently unemployed
+302,sacked from job
+303,sacked from work
+304,termination of employment
+305,unemployed
+306,unemployment
+307,unfair dismissal from job
+308,voluntary resignation
+309,without employment
+
+StopCode:
+
+208 - Compensated work therapy. [1]
+222 - Compensated work therapy. [1]
+535 - Mental Health Vocational Assistance Individual. [1]
+536 - Telephone Mental Health Vocational Assistance. *
+555 - Homeless Veteran Community Employment Services- Individual. [1]
+556 - Homeless Veteran Community Employment Services- Group. *
+568 - Mental Health Compensated Work Therapy/Supported Employment  (CWT/SE). [1]
+574 - Mental Health Compensated Work Therapy/Transitional Work Experience (CWT/TWE). [1]
+575 - Mental Health Vocational Assistance- Group. *
+999 - Occupational Health. *
+
+ICD-9:
+
+V62.0 – Unemployment. *
+V62.1 - Adverse effects of work environment. *
+V62.2 - Other occupational circumstances or maladjustment. *
+
+ICD-10:
+
+Z56 - Problems related to employment and unemployment. *
+Z59.5 - Extreme poverty. [1] 
+Z59.6 - Low income. [1] 
+Z59.7 - Insufficient social insurance and welfare support. [1]
+
+Health Factor Category, Health Factor Type:
+COMPENSATED WORK THERAPY: CWT COMMUNITY VISIT *
+COMPENSATED WORK THERAPY: CWT OFFICE VISIT *
+COMPENSATED WORK THERAPY: CWT COMMUNITY INDIV QRTLY REV *
+COMPENSATED WORK THERAPY: CWT OFFICE INDIV QRTLY REV *
+COMPENSATED WORK THERAPY (CWT): CWT ADMISSION *
+CWT COMPENSATED WORK THERAPY: PATIENT AGREES TO CWT TRANSPORT *
+CWT EVALUATION: CWT EVALUATION DONE *
+
+
+Criminal Justice System-related {JUSTICE} – This domain includes terms related to involvement with the criminal justice system and is initially focused on incarceration. Incarceration is part of the Social and Community Context Determinant Area within the “place-based” organizing framework of the Healthy People 2020 Approach to Social Determinants of Health. Terms in this domain were initially identified via SIREN’s Compendium of medical terminology codes for social risk factors (https://sirenetwork.ucsf.edu/tools-resources/resources/compendium-medical-terminology-codes-social-risk-factors) and further expanded through transitive closures and synonymy within UMLS Metathesaurus and SNOMED CT in particular. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+175,acquitted from criminal charge
+176,arrest by police
+177,arrested by police
+178,arrested in police custody
+179,charged with crime
+180,convictd for criminal activity
+181,convicted for criminal activity
+182,correctional institution resident
+183,has a prison record
+184,imprisoned
+185,imprisonment record
+186,in jail
+187,in prison
+188,incarcerate
+189,incarcerated
+190,involvd in crim law proceedngs
+191,involved in criminal law proceedings
+192,jail inmate
+193,on conditional probation
+194,prison inmate
+195,prison inmates
+196,prison record
+197,prison sentence
+198,prisoner
+199,prisoners
+200,problem related to release from prison
+201,problems related to release from prison
+202,prosecution impending
+203,released from prison
+204,released on bail
+205,vandalism record
+206,young offender
+
+StopCode:
+
+591 - Incarcerated Veterans Re-Entry. [1][6]
+592 - Veterans Justice Outreach. [1][6]
+
+ICD-9:
+
+V62.5 - Legal circumstances. * --
+
+ICD-10:
+
+Y92.14 - Prison as the place of occurrence of the external cause. [1]
+Z65.0 - Conviction in civil and criminal proceedings without imprisonment. [1] 
+Z65.1 - Imprisonment and other incarceration. [1]
+Z65.2 - Problems related to release from prison. [1]
+Z65.3 - Problems related to other legal circumstances. [1] --
+Z65.4 - Victim of crime and terrorism. [1] --
+Z65.5 - Exposure to disaster, war and other hostilities. [1] --
+
+Health Factor Category, Health Factor Type:
+N/A
+
+Access to lethal means {ACCESS2_MEANS} – This domain includes terms related to risk factors for accessing lethal means. Lethal means are objects or actions that may be used to carry out a suicide. Our current selection of terms is informed by the report of the Action Alliance titled Lethal Means & Suicide Prevention: A Guide for Community & Industry Leaders (https://theactionalliance.org/resource/lethal-means-suicide-prevention-guide-community-industry-leaders). Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+0,access to firearm
+1,access to gun
+2,access to handgun
+3,access to pesticides
+4,access to rifle
+5,access to shotgun
+6,firearm at home
+7,gun at home
+8,gun ownership
+9,handgun
+10,lives near bridge
+11,lives near railway
+12,lives near train
+13,owns gun
+
+Question: Should Brandt et al. set of firearm terms[7] be included in the Dr. Tamang’s lexicon under this life event?
+
+StopCode:
+
+N/A
+
+ICD-9:
+
+N/A
+
+ICD-10:
+
+N/A
+
+Health Factor Category, Health Factor Type:
+CATEGORY: FIREARMS SAFETY, FIREARMS ACCESS YES *
+FIREARMS-DEMENTIA, FIREARMS-YES *
+
+
+Detoxification {DETOX} – This domain includes terms related to detoxification, a risk factor within the REACH VET predictive model for identifying veterans at a statistically elevated risk for suicide and other adverse outcomes. Seed terms for this domain were provided by subject matter experts and augmented through term expansion using transitive closures and synonymy within UMLS Metathesaurus and SNOMED CT in particular. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+14,addiction drug therapies
+15,addiction drug therapy
+16,addiction therapy
+17,addiction treatment
+18,addiction tx
+19,alcohol or other drugs detoxification
+20,aod detoxification
+21,detox
+22,detox treatment
+23,detox tx
+24,detoxication therapy
+25,detoxification
+26,detoxification method
+27,detoxification procedure
+28,detoxification therapy
+29,detoxifications
+30,detoxify
+31,drug abuse treatment
+32,drug abuse tx
+33,drug addiction therapy
+34,drug rehab
+35,drug rehabilitation
+36,drug rehabilitation procedure
+37,drug rehabilitations
+38,substance abuse treatment
+39,substance abuse tx
+40,substance use cessation treatments and procedures
+41,substance use therapy
+42,substance use therapy for alcohol withdrawal
+43,substance use therapy for drug withdrawal
+44,substance use therapy for overdose
+45,substance use treatment
+46,substance use treatments and procedures
+47,substance use tx
+48,therapy drug addiction
+49,withdrawal management
+50,withdrawal mgmt
+
+StopCode:
+
+513 - Substance Use Disorder Individual. *
+514 - Substance Use Disorder - Home Visit. *
+519 - Substance Use Disorder/PTSD Teams. *
+523 - Opioid Treatment Program. *
+545 - Telephone Substance Use Disorder. *
+560 - Substance Use Disorder- Group. *
+706 - Alcohol Screening. *
+721 - Opioid Safety Individual Education. *
+722 - Opioid Safety Group Education. *
+723 - Tele-Opioid Safety Education- Patient Site. *
+724 - Tele-Opioid Safety Education- Provider Site. *
+Question: Should stop codes for RRTP and PRRC be included here? *
+
+ICD-9:
+
+292.0 - Drug withdrawal. *
+
+ICD-10:
+
+F11.13 - Opioid abuse with withdrawal. *
+F11.23 - Opioid dependence with withdrawal. *
+F11.93 - Opioid use, unspecified with withdrawal. *
+F12.13 - Cannabis abuse with withdrawal. *
+F12.23 - Cannabis dependence with withdrawal. *
+F12.93 - Cannabis use, unspecified with withdrawal. *
+F13.13 - Sedative, hypnotic or anxiolytic abuse with withdrawal. *
+F13.23 - Sedative, hypnotic or anxiolytic dependence with withdrawal. *
+F13.93 - Sedative, hypnotic or anxiolytic use, unspecified with withdrawal. *
+F14.13 - Cocaine abuse, unspecified with withdrawal. *
+F14.23 - Cocaine dependence with withdrawal. *
+F14.93 - Cocaine use, unspecified with withdrawal. *
+F15.13 - Other stimulant abuse with withdrawal. *
+F15.23 - Other stimulant dependence with withdrawal. *
+F15.93 - Other stimulant use, unspecified with withdrawal. *
+F19.13 - Other psychoactive substance abuse with withdrawal. *
+F19.23 - Other psychoactive substance dependence with withdrawal. *
+F19.93 - Other psychoactive substance use, unspecified with withdrawal. *
+Z71.5 - Drug abuse counseling and surveillance. *
+
+Health Factor Category, Health Factor Type:
+ALCOHOL ASSESSMENT INPT (SW), ALCOHOL ADDICTION MEDS DESIRED *
+ALCOHOL COUNSELING – PT. RESPONSE, INPT ALCOHOL REFERRAL OFFERED-ACCEPTED *
+ALCOHOL USE, ALCOHOL POSITIVE-IN TREATMENT *
+ALCOHOL USE, ALCOHOL RECOVERY PROGRAM *
+ALCOHOL USE, ALCOHOLIC TREATED BY RECOVERY PROGRAM *
+ALCOHOL USE, AUDIT-C POSITIVE IN SATP (M) *
+ALCOHOL USE, CURRENT SUBSTANCE ABUSE TREATMENT *
+ALCOHOL USE, ETOH RECOVERY PROGRAM *
+ALCOHOL USE, SUBSTANCE ABUSE PROGRAM REFERRAL *
+ALCOHOL WITHDRAWAL PROTOCOL, CIWA-AR: MILD TO MODERATE WITHDRAWAL *
+ALCOHOL WITHDRAWAL PROTOCOL, CIWA-AR: SEVERE WITHDRAWAL *
+HIN DC SUBSTANCE USE DISORDER (SUD), HIN DC SUD REFERRAL MADE *
+HIN DC SUBSTANCE USE DISORDER (SUD), HIN DC SUD YES *
+INPATIENT SUBSTANCE ABUSE, INPATIENT SUBSTANCE ABUSE DRUGS *
+RN CP ALCOHOL WITHDRAWAL DELIRIUM, ET CHRONIC USE OF  ALCOHOL/BINGE DRINKING *
+SUBSTANCE ABUSE, BED-SA ACCEPTS REFERRAL SATP *
+SUBSTANCE ABUSE CARE PLAN INTERVENTIONS, SUB ABUSE  SIGNS/SYMPTOMS OF WITHDRAWAL *
+SUBSTANCE ABUSE MEDICATION, SUBSTANCE ABUSE POS MEDS *
+SUBSTANCE USE ACUTE CARE, POSTIVE ACUTE CARE SUBSTANCE USE *
+
+
+Military Sexual Trauma {MST} – This domain includes terms related to military sexual trauma, a risk factor within the REACH VET predictive model for identifying veterans at a statistically elevated risk for suicide and other adverse outcomes. Seed terms for this domain were provided by subject matter experts as well as standard terminologies, such as SNOMED CT. Annotations with any of these terms when pertaining to the patient are likely to indicate the presence of this risk factor.
+
+Lexicon:
+
+207,502 military sexual trauma
+208,adult victim of sexual abuse during military service
+209,military sex abuse
+210,military sex assault
+211,military sex trauma
+212,military sexual abuse
+213,military sexual assault
+214,military sexual harassment
+215,military sexual trauma
+216,military sexual violence
+217,mst
+218,placed military sexual
+219,rape in the military
+220,sexual assault by co
+221,sexual assault by commanding officer
+222,sexual assault by peer
+223,sexual assault by supervisor
+224,sexual assault from commanding officer
+225,sexual assault from peer
+226,sexual assault from supervisor
+227,sexual assault in armed forces
+228,sexual assault in the military
+229,sexual assault involving service members
+230,sexual assaults from peers
+231,sexual assaults from supervisors
+232,sexual trauma during military service
+233,sexually assaulted by service member
+
+StopCode:
+
+524 - Active Duty Sexual Trauma. [1]
+
+ICD-9:
+
+E960.1 – Rape.  * --
+V71.5 - Observation following alleged rape or seduction. * --
+995.83 - Adult sexual abuse. * --
+
+ICD-10:
+
+Z91.410 - Personal history of adult physical and sexual abuse. * --
+T74.21 - Adult sexual abuse, confirmed. * --
+T76.21 - Adult sexual abuse, suspected. * --
+Z04.41 - Encounter for examination and observation following alleged adult rape. [1] --
+Z04.81 - Encounter for examination and observation of victim following forced sexual exploitation. [1] --
+QUESTION: No dx codes cover military specific sexual trauma, rape or sexual abuse.  Should only those terms that are explicitly indicating military sexual trauma be considered? If considered at all, should they be part of the social connect life event?
+
+Health Factor Category, Health Factor Type:
+MST- MST POSITIVE REPORT *
+MILITARY SEXUAL TRUAMA, MST YES [1]
+MST (RELATED), MST *
+MST CATEGORY, MILITARY SEXUAL TRUAMA YES REPORTS *
+MST CATEGORY,  MST POSITIVE *
+MST CATEGORY,  MST POSITIVE REPORT *
+MST CATEGORY,  MST YES _ REPORT *
+MST CATEGORY,  MST YES REPORT *
+MST CATEGORY,  SEXUAL TRUAMA POSITIVE *
+MST CATEGORY [C],  MST YES REPORTS *
+PHYSICAL/SEXUAL ABUSE,  PHYS/SEX ABUSE – YES * --
+
+
+
+References:
+
+
+Blosnich et. al. have definitions of housing instability, job instability, legal issues, and military sexual trauma. Their study was limited to patient data in 2016 so ICD9 codes were disregarded, but they also include health factor data. Though social connection like categories were not part of their study, they did include many of the codes we use for social connection in exposure to violence and social/familial problems.
+Blosnich JR, Montgomery AE, Dichter ME, Gordon AJ, Kavalieratos D, Taylor L, Ketterer B, Bossarte RM. Social Determinants and Military Veterans' Suicide Ideation and Attempt: a Cross-sectional Analysis of Electronic Health Record Data. J Gen Intern Med. 2020 Jun;35(6):1759-1767. doi: 10.1007/s11606-019-05447-z. PMID: 31745856; PMCID: PMC7280399.
+Mental health and substance use indicates high rates of suicide attempts, incarceration and  homelessness.
+Edwards ER, Barnes S, Govindarajulu U, Geraci J, Tsai J. Mental health and substance use patterns associated with lifetime suicide attempt, incarceration, and homelessness: A latent class analysis of a nationally representative sample of US veterans. Psychological services. 2020 Aug 27.
+Opioid specific cessation study. Found that risk for suicide increases immediately after starting or stopping treatment with opiods. Substance use in this study was measured and the definition of substance use excluded nicotine. Cessation was measured according to when prescription codes terminated a treatment on opioids.
+Oliva EM, Bowe T, Manhapra A, Kertesz S, Hah JM, Henderson P, Robinson A, Paik M, Sandbrink F, Gordon AJ, Trafton JA. Associations between stopping prescriptions for opioids, length of opioid treatment, and overdose or suicide deaths in US veterans: observational evaluation. bmj. 2020 Mar 4;368.
+The VHA two-item MST screener was used. This screener asks veterans "While you were in the military … a) Did you receive uninvited and unwanted sexual attention, such as touching, cornering, pressure for sexual favors, or verbal remarks?; b) Did someone ever use force or threat of force to have sexual contact with you against your will?". Endorsement of either a, b, or both is acknowledged to denote a positive MST screen. The screener as described in the paper was not found along Health Factor tables, but MST positive flags were found.
+Decker SE, Ramsey CM, Ronzitti S, Kerns RD, Driscoll MA, Dziura J, Skanderson M, Bathulapalli H, Brandt CA, Haskell SG, Goulet JL. Military sexual trauma and suicidal ideation in VHA-care-seeking OEF/OIF/OND veterans without mental health diagnosis or treatment. Psychiatry Research. 2021 Jun 29:114089.
+Survey of literature regarding various literature about justice-involvement and risk of suicide.
+Holliday R, Martin WB, Monteith LL, Clark SC, LePage JP. Suicide among justice-involved veterans: a brief overview of extant research, theoretical conceptualization, and recommendations for future research. Journal of Social Distress and Homelessness. 2021 Jan 2;30(1):41-9.
+Suicide risk and justice service utilization.
+Palframan KM, Blue‐Howells J, Clark SC, McCarthy JF. Veterans justice programs: assessing population risks for suicide deaths and attempts. Suicide and Life‐Threatening Behavior. 2020 Aug;50(4):792-804.
+Brandt et. al recent study on using NLP to pull out gun terms shows good return on positive matches. Their study did not include measure of prevalence along structured variables.
+Brandt CA, Workman TE, Farmer MM, Akgün KM, Abel EA, Skanderson M, Bean-Mayberry B, Zeng-Treitler Q, Mason M, Bastian LA, Goulet JL. Documentation of screening for firearm access by healthcare providers in the Veterans Healthcare System: a retrospective study. Western journal of emergency medicine. 2021 May;22(3):525.
